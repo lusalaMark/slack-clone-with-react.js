@@ -1,13 +1,13 @@
+import React from "react";
 import "./App.css";
+import Header from "./Header";
 
 function App() {
   return (
     // BEM naming convention
     <div className="App">
-      <h1>Hello There</h1>
-
       {/*Header*/}
-
+      <Header />
       {/*Sidebar*/}
       {/*React-Roter -> Chat Screen*/}
     </div>
